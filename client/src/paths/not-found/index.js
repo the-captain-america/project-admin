@@ -1,5 +1,5 @@
 import React from 'react';
-import { history } from 'utils/store';
+import { history } from 'state/store';
 import { GridContainer, Content } from 'utils/common-ui';
 
 export const NotFound = () => (

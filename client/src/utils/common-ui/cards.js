@@ -3,25 +3,21 @@ import shades from '@bupa-digital/shades/react';
 import { asRem, ThemeColors, Theme } from 'utils/common-ui';
 
 export const Card = shades.div({
-  margin: 0,
-  marginBottom: asRem(8),
   position: 'relative',
-  padding: asRem(24),
-  boxSizing: 'border-box',
-  width: '100%',
-  borderRadius: Theme.border.defaultRadius,
-  display: 'block',
-  background: ThemeColors.white,
-  marginLeft: 'auto',
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'flex-start',
-  width: '100%',
+  marginTop: 0,
+  marginRight: 'auto',
   marginLeft: 'auto',
-  marginright: 'auto',
-  border: '1px solid #dbdbdb',
+  marginBottom: asRem(8),
+  padding: asRem(24),
+  width: '100%',
   overflow: 'hidden',
-
+  border: '1px solid #dbdbdb',
+  borderRadius: Theme.border.defaultRadius,
+  boxSizing: 'border-box',
+  background: ThemeColors.white,
   [style.elementOf('nthChild(1)')]: {
     marginTop: asRem(16)
   }

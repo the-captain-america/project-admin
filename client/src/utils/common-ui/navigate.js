@@ -9,7 +9,7 @@ import {
   colorLuminance,
   asRem
 } from 'utils/common-ui';
-import { history } from 'utils/store';
+import { history } from 'state/store';
 
 const baseStyles = {
   ...baseButtonStyles,

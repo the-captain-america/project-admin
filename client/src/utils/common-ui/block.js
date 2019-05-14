@@ -3,20 +3,17 @@ import style from '@bupa-digital/shades/utils.style/compat';
 import { asRem, Theme, ThemeColors } from 'utils/common-ui';
 
 export const Box = shades.li({
-  marginright: 0,
-  marginLeft: 0,
   position: 'relative',
-  padding: asRem(24),
-  boxSizing: 'border-box',
-  width: '100%',
-  borderRadius: Theme.defaultRadius,
   display: 'block',
-  background: ThemeColors.white,
-  width: '100%',
-  marginLeft: 'auto',
   marginRight: 'auto',
-  border: '1px solid #dbdbdb',
+  marginLeft: 'auto',
+  padding: asRem(24),
+  width: '100%',
   overflow: 'hidden',
+  border: '1px solid #dbdbdb',
+  borderRadius: Theme.defaultRadius,
+  boxSizing: 'border-box',
+  background: ThemeColors.white,
   [style.prop('verticalPush')]: value => ({
     marginTop: asRem(value)
   }),

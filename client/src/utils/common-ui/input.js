@@ -1,10 +1,8 @@
 import shades from '@bupa-digital/shades/react';
-import style from '@bupa-digital/shades/utils.style/compat';
 import { asRem, ThemeColors, Theme } from './theme';
 
 export const Input = shades.input({
   padding: asRem(8),
-  marginTop: asRem(16),
   marginTop: asRem(16),
   position: 'relative',
   fontSize: asRem(16),

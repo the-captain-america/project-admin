@@ -2,7 +2,7 @@ import React from 'react';
 import shades from '@bupa-digital/shades/react';
 import style from '@bupa-digital/shades/utils.style/compat';
 import mq from '@bupa-digital/shades/utils.mq';
-import { history } from 'utils/store';
+import { history } from 'state/store';
 import {
   asRem,
   FlexBlock,

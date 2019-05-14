@@ -4,7 +4,7 @@ import { Overlay } from 'features';
 import style from '@bupa-digital/shades/utils.style/compat';
 import shades from '@bupa-digital/shades/react';
 import mq from '@bupa-digital/shades/utils.mq';
-import { history } from 'utils/store';
+import { history } from 'state/store';
 import { withStateHandlers } from 'recompose';
 import { asRem, ThemeColors, Icon, ThemeUI, Theme } from 'utils/common-ui';
 

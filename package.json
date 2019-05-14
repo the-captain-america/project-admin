@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Admin SSR Node API",
   "engines": {
-    "node": "9.x"
+    "node": "10.x"
   },
   "scripts": {
     "start": "node server",
@@ -27,6 +27,5 @@
     "create-react-app",
     "react"
   ],
-  "license": "MIT",
-  "devDependencies": {}
+  "license": "MIT"
 }

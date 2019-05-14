@@ -4,14 +4,7 @@ import { Provider } from 'react-redux';
 import shades from '@bupa-digital/shades/react';
 import * as serviceWorker from './serviceWorker';
 import { Routes } from './routes';
-import store from 'utils/store';
-
-import firebase from 'firebase/app';
-import { keys } from 'utils/config/keys';
-
-if (!firebase.apps.length) {
-  firebase.initializeApp(keys);
-}
+import store from 'state/store';
 
 const domNode = document.querySelector('#root');
 ReactDOM.render(
@@ -22,3 +15,5 @@ ReactDOM.render(
   </shades.Provider>,
   document.querySelector('#root')
 );
+
+serviceWorker.unregister();

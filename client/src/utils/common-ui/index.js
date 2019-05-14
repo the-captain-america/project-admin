@@ -4,7 +4,6 @@ export * from './grid';
 export * from './block';
 export * from './button';
 export * from './icon';
-export * from './iconSvg';
 export * from './heading';
 export * from './content';
 export * from './navigate';

@@ -1,6 +1,6 @@
 import React from 'react';
-import { history } from 'utils/store';
-import { Controls, Row, Col } from 'utils/components';
+import { history } from 'state/store';
+import { Controls } from 'utils/components';
 import shades from '@bupa-digital/shades/react';
 import style from '@bupa-digital/shades/utils.style/compat';
 import {
@@ -9,6 +9,7 @@ import {
   Heading,
   Icon,
   ThemeColors,
+  GridContainer,
   Theme
 } from 'utils/common-ui';
 
@@ -72,11 +73,9 @@ export const Layout = ({
     </React.Fragment>
   );
   return (
-    <Row>
-      <Col sm={12} lg={4} offset={{ lg: 4 }}>
-        {grid && children}
-        {!grid && render}
-      </Col>
-    </Row>
+    <GridContainer>
+      {grid && children}
+      {!grid && render}
+    </GridContainer>
   );
 };

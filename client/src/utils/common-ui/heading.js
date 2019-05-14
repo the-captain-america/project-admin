@@ -1,7 +1,7 @@
 import React from 'react';
 import shades from '@bupa-digital/shades/react';
 import style from '@bupa-digital/shades/utils.style/compat';
-import { Theme, asRem, ThemeColors } from 'utils/common-ui';
+import { Theme, ThemeColors } from 'utils/common-ui';
 
 const Text = shades.h1({
   fontFamily: Theme.font.defaultFamily,

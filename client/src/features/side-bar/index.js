@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { withRouter } from 'react-router-dom';
 import { connect } from 'react-redux';
 import { Button, Icon } from 'utils/common-ui';
-import { history } from 'utils/store';
+import { history } from 'state/store';
 import { logoutUser } from 'state/actions/AuthActions';
 import { Side, Close, SideAvatar } from './styles';
 

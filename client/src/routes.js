@@ -1,7 +1,7 @@
 import React from 'react';
 import { history } from 'state/store';
 import { Router, Switch, Route } from 'react-router-dom';
-import { NotFound, HomePage } from './paths';
+import { NotFound, HomePage } from 'paths';
 
 export const Routes = () => (
   <Router forceRefresh={true} history={history}>

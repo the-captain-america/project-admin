@@ -1,3 +1,3 @@
 // create pop-up panel which delivers messages about each page... dependent upon first time visit / usage.
-export * from './home-page';
-export * from './not-found';
+export { default as HomePage } from './home-page';
+export { default as NotFound } from './not-found';
